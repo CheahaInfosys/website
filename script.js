@@ -157,7 +157,7 @@ function markActiveNav() {
 }
 
 function setupReveal() {
-  const candidates = document.querySelectorAll(".section, .stats-strip, .logo-cloud, .cap-card, .service-row, .journey-grid article, .feature-band, .final-cta");
+  const candidates = document.querySelectorAll(".section, .stats-strip, .logo-cloud, .marquee-strip, .move-grid article, .replace-grid article, .system-stack article, .cap-card, .service-row, .journey-grid article, .feature-band, .final-cta");
   candidates.forEach((node) => node.classList.add("reveal"));
   candidates.forEach((node) => {
     if (node.getBoundingClientRect().top < window.innerHeight * 0.96) {
